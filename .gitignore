@@ -63,3 +63,10 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# 8. Tài liệu nội bộ & Cấu hình AI
+GEMINI.md
+PROJECT_SPEC.md
+PROJECT_MAP.md
+.agents/
+
