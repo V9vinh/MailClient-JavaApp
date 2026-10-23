@@ -1,0 +1,65 @@
+# ==========================================
+# Java Mail Client — Git Ignore File
+# ==========================================
+
+# 1. Thư mục biên dịch của Maven
+target/
+*.class
+
+# 2. File đóng gói nhị phân
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# 3. File cấu hình tài khoản & dữ liệu nhạy cảm cục bộ
+mail_config.json
+*.json.bak
+
+# 4. File cấu hình IDE & Editor
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# 5. File sao lưu & tạm thời
+PROJECT_SPEC_BACKUP.md
+*.bak
+*.tmp
+*.temp
+*~
+
+# 6. File nhật ký (Logs)
+*.log
+logs/
+
+# 7. Hệ điều hành (Windows / macOS)
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
